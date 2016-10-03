@@ -2,7 +2,6 @@ package com.rustam.car;
 
 import com.rustam.car.components.usual.Engine;
 import com.rustam.car.components.usual.Filter;
-import com.rustam.car.components.usual.FuelInjector;
 import com.rustam.car.components.usual.broken.BadFuelInjector;
 
 import static com.rustam.car.components.dashboard.SystemMonitor.engineMessages;
@@ -17,6 +16,4 @@ public class Car {
                         throwable -> System.out.println(throwable.getMessage())
                 );
     }
-
-
 }
