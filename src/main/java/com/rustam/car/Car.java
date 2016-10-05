@@ -2,7 +2,7 @@ package com.rustam.car;
 
 import com.rustam.car.components.usual.Engine;
 import com.rustam.car.components.usual.Filter;
-import com.rustam.car.components.usual.broken.BadFuelInjector;
+import com.rustam.car.components.usual.bad.BadFuelInjector;
 
 import static com.rustam.car.components.dashboard.SystemMonitor.engineMessages;
 

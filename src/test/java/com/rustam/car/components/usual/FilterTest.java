@@ -1,14 +1,12 @@
 package com.rustam.car.components.usual;
 
-import com.rustam.car.components.usual.broken.BadFuelInjector;
+import com.rustam.car.components.usual.bad.BadFuelInjector;
 import org.junit.Test;
 import rx.observers.TestSubscriber;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-
-import static org.junit.Assert.*;
 
 public class FilterTest {
     @Test

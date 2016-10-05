@@ -4,9 +4,9 @@ import com.rustam.car.components.f1.F1FuelInjector;
 import com.rustam.car.components.usual.Engine;
 import com.rustam.car.components.usual.Filter;
 import com.rustam.car.components.usual.Transmission;
-import com.rustam.car.components.usual.broken.BadFuelInjector;
+import com.rustam.car.components.usual.bad.BadFuelInjector;
 
-public class Car4x4 {
+public class Car2 {
     public static void main(String[] args) {
         Transmission.spinTheWheels(
                 Engine.startUp().producePowerFrom(Filter.filteredFuel(BadFuelInjector.getFuel())),
